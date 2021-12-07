@@ -13,4 +13,3 @@ def send_message(msg, group_key):
       print(e)
 
   print("something")
-  time.sleep(5.5)    # Pause 5.5 seconds
