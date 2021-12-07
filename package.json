@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorenzras/line-message.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lorenzras/line-message/issues"
+  },
+  "homepage": "https://github.com/Lorenzras/line-message#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^7.4.0",
+    "express": "^4.17.1"
+  }
+}
