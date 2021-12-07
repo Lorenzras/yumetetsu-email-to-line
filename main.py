@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 from src.line.line_api import send_message
 import os
 import sys
-import time
 
 load_dotenv()
 
@@ -21,7 +20,6 @@ def main():
 
     send_message(message,  os.getenv('GROUP_ID_TEST'))
     #send_message("konnichiwa",  os.getenv('GROUP_ID_FUJISAWA'))
-    time.sleep(100.5)    # Pause 5.5 seconds
 
 
 if __name__ == "__main__":
