@@ -16,6 +16,6 @@ def send_message(msg, group_key):
   line_bot_api = LineBotApi(os.getenv('CHANNEL_KEY'))
   try:
       logging.debug(f"groupKey: {group_key}, totalLength: {len(msg)}, message: {message} ")
-      #line_bot_api.push_message(group_key, TextSendMessage(text=message))
+      line_bot_api.push_message(group_key, TextSendMessage(text=message))
   except LineBotApiError as e:
       print(e)
