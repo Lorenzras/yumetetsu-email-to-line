@@ -1,5 +1,4 @@
 
-import logging
 from dotenv import load_dotenv
 from src.line.line_api import send_message
 from src.line.utils import getGroupIdByMailBox
