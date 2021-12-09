@@ -4,7 +4,7 @@ from linebot.exceptions import LineBotApiError
 import os
 import logging
 
-#logging.basicConfig(encoding="utf-8", filename='app.log', format='%(asctime)s %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
+logging.basicConfig(encoding="utf-8", filename='app.log', format='%(asctime)s %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 
 
 
