@@ -18,7 +18,7 @@ def main():
         message = sys.argv[1]
         mailbox = sys.argv[2]
 
-    logging.debug(f"Mailbox : {mailbox}" )
+    #logging.debug(f"Mailbox : {mailbox}" )
     send_message(message,  getGroupIdByMailBox(mailbox))
     time.sleep(150)
 
