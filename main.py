@@ -20,8 +20,5 @@ def main():
     send_message(message,  getGroupIdByMailBox(mailbox))
 
 
-
-
-
 if __name__ == "__main__":
   main()
