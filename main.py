@@ -8,7 +8,6 @@ import sys
 import time
 
 #Settings
-logging.basicConfig(filename='app.log', format='%(asctime)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 load_dotenv()
 
 def main():

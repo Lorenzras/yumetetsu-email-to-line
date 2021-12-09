@@ -1,8 +1,8 @@
 from linebot import LineBotApi
 from linebot.models import TextSendMessage
 from linebot.exceptions import LineBotApiError
-
 import logging
+
 logging.basicConfig(encoding="utf-8", filename='app.log', format='%(asctime)s %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 
 import os
