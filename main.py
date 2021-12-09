@@ -2,9 +2,8 @@
 from dotenv import load_dotenv
 from src.line.line_api import send_message
 from src.line.utils import getGroupIdByMailBox
-import logging
 import sys
-import time
+
 
 #Settings
 load_dotenv()
@@ -19,7 +18,7 @@ def main():
 
     #logging.debug(f"Mailbox : {mailbox}" )
     send_message(message,  getGroupIdByMailBox(mailbox))
-    time.sleep(150)
+
 
 
 
