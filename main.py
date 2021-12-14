@@ -17,7 +17,7 @@ def main():
         mailbox = sys.argv[2]
 
     groupID = getGroupIdByMailBox(mailbox)
-    send_message(f"groupId: {groupID}\n{message}",  groupID)
+    send_message(f"{message}",  groupID)
 
 
 if __name__ == "__main__":
